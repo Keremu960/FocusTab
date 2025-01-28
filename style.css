@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@keyframes slide{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+button{
+    cursor: pointer;
+}
+
+button:active{
+    background-color: #2f2d2d;
+}
+
+*{
+    font-family: 'Kanit', sans-serif;
+    animation: slide 1.5s ease-in-out;
+}
+
+body{
+    background-color: #131212;
+    text-align: center;
+}
+
+#shortcutBtns{
+    margin-right: 25px;
+    width: 115px;
+    height: 115px;
+    font-size: 70px;
+    background-color: #373434;
+    border: none;
+    border-radius: 10px;
+    color: #aba6a6;
+}
+
+#shortcutBtns:active{
+    background-color: #2f2d2d;
+}
+
+.inputArea{
+    margin-top: 10%;
+    margin-right: 30px;
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #373434;
+    outline: none;
+    color: #aba6a6;
+    margin-bottom: 50px;
+}
+
+*::selection {
+    color: #373434;
+    background-color: #aba6a6;
+}
+
+.searchBtn{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #373434;
+    border: none;
+    border-radius: 10px;
+    color: #aba6a6;
+}
+
+.caption{
+    color: #aba6a6;
+    font-size: 60px;
+}
